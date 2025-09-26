@@ -25,4 +25,6 @@ public interface AbstractCheck extends AbstractProcessor, BasicStatus {
 
     boolean isExperimental();
 
+    default String getDescription() {return "No description provided";}
+
 }
